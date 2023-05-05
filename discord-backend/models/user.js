@@ -12,4 +12,4 @@ const userSchema =new mongoose.Schema({
 
 module.exports = mongoose.model('User',userSchema);// now we just export the schema with module.exports
 
-//mongoose helps the create the schema of user's database.
+//mongoose helps the create the schema of user's database.//hard binding
