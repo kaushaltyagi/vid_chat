@@ -43,6 +43,7 @@ const postRegister = async (req,res) =>{ // we add async because we add some ope
                 mail:user.mail,
                 token:token,
                 username:user.username,
+                _id: user._id,
             }
         })
     }catch(err){
